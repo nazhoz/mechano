@@ -1,0 +1,194 @@
+.periodicservices-firstpart{
+    display: flex;
+    width: 90%;
+    height: 55vh;
+    justify-content:space-around ;
+    align-items: center;
+    margin-left: 2rem;
+    background-color: rgba(233, 233, 233, 0.774);
+    border-radius: 9px;
+    box-shadow: 0 0 5px rgb(168, 168, 168);
+}
+.peroidmain{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: flex-start;
+}
+.periodicservices-main{
+    width:70%;
+    height: 500vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.periodicservices-imgpart{
+    height: 300px;
+    width:200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+.imgpart-rupees{
+    width: 200px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.rs-25999{
+    font-size: 13px;
+    font-weight: 700;
+    color: rgb(155, 152, 152);
+    text-decoration: line-through;
+}
+.rs-18299{
+    font-size: 17px;
+    font-weight: 800;
+    color: orange;
+}
+.periodicservice-scndpart{
+    width: 55%;
+    height: 43vh;
+}
+.periodicservice-scndpart-head{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 50px;
+
+}
+.basicser{
+    height: 30px;
+    margin-top: 0.5rem;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 800; 
+    color: orange;
+    font-size: 25px;
+}
+.time{
+    border: 1px solid lightgray;
+    width: 100px;
+    height: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: lightgray;
+    border-radius: 3px;
+    font-size: 13px;
+}
+.periodicservice-nav{
+    background-color: aqua;
+}
+.periodicservice-scndpart-details{
+    width: 90%;
+    display: flex;
+    height: 30vh;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+.periodicdetails{
+    height: 170px;
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: flex-start;
+}
+.periodic-cart{
+    width: 150px;
+    height: 40px;
+    background-color: orangered;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    border-radius: 4px;
+    font-weight: 800;
+}
+.perbutton{
+    width: 150px;
+    height: 40px;
+    background-color: orangered;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    border-radius: 4px;
+    font-weight: 800;
+    outline: none;
+    border: none;
+}
+.perbutton:hover{
+    background-color: white;
+    color: orangered;
+}
+.periodhead{
+    height: 40px;
+    margin-left: 1rem;
+    font-size: 30px;
+    font-weight: 800;
+    color: orange;
+}
+.period-search{
+    background-color: rgba(221, 221, 221, 0.747);
+    width: 30%;
+    height: 85vh;
+    margin-top: 12rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgb(214, 214, 214);
+}
+.period-search-name{
+    background-color: rgb(255, 255, 255);
+    width: 85%;
+    height: 45px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgb(156, 156, 156);
+}
+.period-search-input{
+    width: 240px;
+    height: 40px;
+    border: none;
+    outline: none;
+    background: none;
+}
+.period-button-type{
+    width: 120px;
+    height: 45px;
+    border: 1px solid lightgrey;
+    border-radius: 10px;
+    box-shadow: 0 0 5px rgb(184, 184, 184);
+    background-image: linear-gradient(orange,orangered);
+}
+.period-search-logo{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    width: 200px;
+}
+.customerdetails{
+    color: orange;
+    font-size: 20px;
+    font-weight: 800;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.period-submit{
+    width: 120px;
+    height: 40px;
+    outline: none;
+    background: none;
+    border: none;
+    color: white;
+    font-size: 17px;
+    font-weight:700 ;
+}

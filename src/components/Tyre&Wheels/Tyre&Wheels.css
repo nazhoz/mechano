@@ -1,0 +1,202 @@
+.tyreservices-firstpart{
+    display: flex;
+    width: 90%;
+    height: 55vh;
+    justify-content:space-around ;
+    align-items: center;
+    margin-left: 2rem;
+    background-color: darkcyan;
+    border-radius: 9px;
+    box-shadow: 0 0 5px rgb(168, 168, 168);
+}
+.tyremain{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: flex-start;
+}
+.tyreservices-main{
+    width:70%;
+    height: 300vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.tyreservices-imgpart{
+    height: 300px;
+    width:200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+.tyrepart-rupees{
+    width: 200px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.rs-25992{
+    font-size: 13px;
+    font-weight: 700;
+    color: rgb(155, 152, 152);
+    text-decoration: line-through;
+}
+.rs-18292{
+    font-size: 17px;
+    font-weight: 800;
+    color: orange;
+}
+.tyreservice-scndpart{
+    width: 55%;
+    height: 43vh;
+}
+.tyreservice-scndpart-head{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 50px;
+
+}
+.detailssss{
+    color: white;
+}
+.basictyre{
+    height: 30px;
+    margin-top: 0.5rem;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 800; 
+    color: orange;
+    font-size: 25px;
+}
+.timezs{
+    border: 1px solid rgb(10, 50, 68);
+    width: 100px;
+    height: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(10, 50, 68);
+    border-radius: 3px;
+    font-size: 13px;
+    color: white;
+}
+.tyreservice-scndpart-details{
+    width: 90%;
+    display: flex;
+    height: 30vh;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+.tyredetails{
+    height: 170px;
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: flex-start;
+}
+.tyre-cart{
+    width: 150px;
+    height: 40px;
+    background-color: orangered;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    border-radius: 4px;
+    font-weight: 800;
+}
+.tyrebutton{
+    width: 150px;
+    height: 40px;
+    background-color: orangered;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    border-radius: 4px;
+    font-weight: 800;
+    outline: none;
+    border: none;
+}
+.tyrebutton:hover{
+    background-color: white;
+    color: orangered;
+}
+.tyrehead{
+    height: 40px;
+    margin-left: 1rem;
+    font-size: 30px;
+    font-weight: 800;
+    color: rgb(0, 0, 0);
+}
+.tyre-search{
+    background-color: rgba(221, 221, 221, 0.747);
+    width: 30%;
+    height: 85vh;
+    margin-top: 9rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgb(214, 214, 214);
+}
+.tyre-search-name{
+    background-color: rgb(255, 255, 255);
+    width: 85%;
+    height: 45px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgb(156, 156, 156);
+}
+.tyre-search-input{
+    width: 240px;
+    height: 40px;
+    border: none;
+    outline: none;
+    background: none;
+}
+.tyre-button-type{
+    width: 120px;
+    height: 45px;
+    border: 1px solid lightgrey;
+    border-radius: 10px;
+    box-shadow: 0 0 5px rgb(184, 184, 184);
+    background-image: linear-gradient(orange,orangered);
+}
+.tyre-search-logo{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    width: 200px;
+}
+.tyrecustomerdetails{
+    color: orange;
+    font-size: 20px;
+    font-weight: 800;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.tyre-submit{
+    width: 120px;
+    height: 40px;
+    outline: none;
+    background: none;
+    border: none;
+    color: white;
+    font-size: 17px;
+    font-weight:700 ;
+}
+.tyre-submit:hover{
+    color: rgb(255, 255, 255);
+    background-image: linear-gradient(orangered, orange);
+}
+.link-button{
+    text-decoration: none;
+}

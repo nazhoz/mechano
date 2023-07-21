@@ -11,6 +11,7 @@ import DetailService from './components/DetailingService/DetailService';
 import WindShieldLight from './components/WindSheildLights/WindShieldLight';
 import Suspensions from './components/Suspension/Suspensions';
 import ClutchBodys from './components/Clutchbodys/ClutchBodys';
+import Cart from './components/Cart/Cart';
 
 function App() {
   return (
@@ -27,6 +28,7 @@ function App() {
     <Route path='WindShieldLight' element={<WindShieldLight/>}/>
     <Route path='Suspensions' element={<Suspensions/>}/>
     <Route path='ClutchBodys' element={<ClutchBodys/>}/>
+    <Route path='Cart' element={<Cart/>}/>
 
     </Route>
    </Routes>
