@@ -7,6 +7,7 @@
    display: flex;
    justify-content: center;
    align-items: center;
+   margin-top: 5rem;
 
 }
 .home-images-size{
@@ -19,6 +20,8 @@
     align-items: center;
     height: 90px;
     background-color: rgb(6, 77, 99);
+    position:  fixed;
+    width: 100%;
 
 }
 .first-nav-search-box{
@@ -64,24 +67,26 @@
     margin-left: -1rem;
     background-color: darkcyan;
 }
-
 .nav-periods{
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    height: 120px;
+    height: 130px;
     width: 220px;
     font-size: 18px;
     font-weight: 700;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.nav-periods:hover{
+    background-color: white;
 }
 .nav-link-text{
     text-decoration: none;
     color: orange;
 }
 .nav-link-text:hover{
-    color: rgb(255, 255, 255);
+    color: orange;
 }
 .nav-title{
     width: 250px;

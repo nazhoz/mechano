@@ -1,11 +1,11 @@
-import React from 'react'
+import React from "react";
 
 const HomeCopy = () => {
   return (
-    <div className='home-copyright'>
-        <span>Mechano</span>
+    <div className="home-copyright">
+      <span>Mechano</span>
     </div>
-  )
-}
+  );
+};
 
-export default HomeCopy
+export default HomeCopy;
