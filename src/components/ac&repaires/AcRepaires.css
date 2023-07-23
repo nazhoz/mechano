@@ -5,7 +5,7 @@
     justify-content:space-around ;
     align-items: center;
     margin-left: 2rem;
-    background-color: darkcyan;
+    background-color: rgba(233, 233, 233, 0.774);
     border-radius: 9px;
     box-shadow: 0 0 5px rgb(168, 168, 168);
 }
@@ -60,7 +60,7 @@
 
 }
 .detailss{
-    color: white;
+    color: rgb(0, 0, 0);
 }
 .basicac{
     height: 30px;
@@ -198,4 +198,67 @@
 }
 .link-button{
     text-decoration: none;
+}
+
+/* ---------------------------MediaQuery----------------------------- */
+
+@media(max-width:500px){
+    .acmain{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        width: 100%;
+        height: 700vh;
+    }
+    .acservices-main{
+        width: 100%;
+        height: 650vh;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+    .acservices-firstpart{
+        display: flex;
+        flex-direction: column;
+        width: 95%;
+        height:80vh;
+        margin-left: 0;
+    }
+    .acservices-imgpart{
+        width: 95%;
+    }
+    .acservices-imgpart{
+        display: flex;
+        flex-direction: row;
+    }
+    .acservice-scndpart{
+        width: 95%;
+    }
+    .acdetails{
+        width: 60%;
+        height: 30vh;
+    }
+    .ac-cart{
+        width: 40%;
+    }
+    .acservice-scndpart-details{
+        width: 100%;
+    }
+    .acbutton{
+        font-size: 14px;
+    }
+    .detailss{
+        font-size: 13px;
+    }
+    .basicac{
+        font-size: 18px;
+    }
+    .ac-search{
+        width: 98%;
+    }
+    .ac-search-name{
+        font-size: 14px;
+        width: 95%;
+    }
 }

@@ -16,42 +16,42 @@ const DetailService = () => {
           <h4 className="detailshead">Detailed Service</h4>
           <div className="detailsservices-firstpart">
             <div className="detailsservices-imgpart">
-              <img width={180} height={180} src={ceramiccoating} alt="" />
+              <img width={180} height={180} src={ceramiccoat} alt="" />
               <div className="detailspart-rupees">
-                <span className="rs-25994">Rs 4,689</span>
-                <span className="rs-18294">₹ 3,999/-</span>
+                <span className="rs-25994">Rs 8,689</span>
+                <span className="rs-18294">₹ 5,999/-</span>
               </div>
             </div>
             <div className="detailsservice-scndpart">
               <div className="detailsservice-scndpart-head">
-                <h5 className="basicdetails">Bumper Painting</h5>
-                <span className="timezz">24 hour Taken</span>
+                <h5 className="basicdetails">Car Rubbing & Polishing</h5>
+                <span className="timezz">6 hour Taken</span>
               </div>
               <div className="detailsservice-scndpart-details">
                 <div className="detailsdetails">
                   <div className="detailsssss">
                     <img src={tick} alt="" />
-                    <span>2 Year Warranty on Paint</span>
+                    <span>Pressure Car Washing</span>
                   </div>
                   <div className="detailsssss">
                     <img src={tick} alt="" />
-                    <span>Grade a Primer Applied</span>
+                    <span>Alloy Polishing</span>
                   </div>
                   <div className="detailsssss">
                     <img src={tick} alt="" />
-                    <span>Remove Minor Dent & Scartch</span>
+                    <span>Rubbing with 3M Compound</span>
                   </div>
                   <div className="detailsssss">
                     <img src={tick} alt="" />
-                    <span>High Quality Dupont Paint</span>
+                    <span>Tyre Dressing</span>
                   </div>
                   <div className="detailsssss">
                     <img src={tick} alt="" />
-                    <span>Panel Rubbing & Polishing</span>
+                    <span>Machine Rubbing</span>
                   </div>
                   <div className="detailsssss">
                     <img src={tick} alt="" />
-                    <span>Clear Coat Protective paint</span>
+                    <span>3M Wax Polishing</span>
                   </div>
                 </div>
                 <div className="details-cart">
@@ -65,42 +65,42 @@ const DetailService = () => {
 
           <div className="detailsservices-firstpart">
             <div className="detailsservices-imgpart">
-              <img width={180} height={180} src={ceramiccoat} alt="" />
+              <img width={180} height={180} src={ceramiccoating} alt="" />
               <div className="detailspart-rupees">
-                <span className="rs-25994">Rs.4,850</span>
-                <span className="rs-18294">₹ 3,999/-</span>
+                <span className="rs-25994">Rs.34,850</span>
+                <span className="rs-18294">₹ 31,999/-</span>
               </div>
             </div>
             <div className="detailsservice-scndpart">
               <div className="detailsservice-scndpart-head">
-                <h5 className="basicdetails">Rear Bumper Painting</h5>
-                <span className="timezz">24 hrs Taken</span>
+                <h5 className="basicdetails">Meguiar's Ceramic Coating</h5>
+                <span className="timezz">Take 3 Days</span>
               </div>
               <div className="detailsservice-scndpart-details">
                 <div className="detailsdetails">
                   <div className="detailsssss">
                     <img src={tick} alt="" />
-                    <span>2 Year Warranty on Paint</span>
+                    <span>Complete Paint Corrections</span>
                   </div>
                   <div className="detailsssss">
                     <img src={tick} alt="" />
-                    <span>Grade a Primer Applied</span>
+                    <span>Remove Minor Scratchs</span>
                   </div>
                   <div className="detailsssss">
                     <img src={tick} alt="" />
-                    <span>Remove Minor Dent & Scartch</span>
+                    <span>Exterior Car Wash</span>
                   </div>
                   <div className="detailsssss">
                     <img src={tick} alt="" />
-                    <span>High Quality Dupont Paint</span>
+                    <span>2 Layer of Coating</span>
                   </div>
                   <div className="detailsssss">
                     <img src={tick} alt="" />
-                    <span>Panel Rubbing & Polishing</span>
+                    <span>Deep All Round Spa</span>
                   </div>
                   <div className="detailsssss">
                     <img src={tick} alt="" />
-                    <span>Clear Coat Protective paint</span>
+                    <span>Ultra Shine Protection</span>
                   </div>
                 </div>
                 <div className="details-cart">
@@ -116,40 +116,40 @@ const DetailService = () => {
             <div className="detailsservices-imgpart">
               <img width={180} height={180} src={paintcoating} alt="" />
               <div className="detailspart-rupees">
-                <span className="rs-25994">Rs.3,850</span>
-                <span className="rs-18294">₹ 2,999/-</span>
+                <span className="rs-25994">Rs.97,850</span>
+                <span className="rs-18294">₹ 85,999/-</span>
               </div>
             </div>
             <div className="detailsservice-scndpart">
               <div className="detailsservice-scndpart-head">
-                <h5 className="basicdetails">Boot Painting</h5>
-                <span className="timezz">24 hrs Taken</span>
+                <h5 className="basicdetails">Paint Protection Films</h5>
+                <span className="timezz">Takes 6 Days</span>
               </div>
               <div className="detailsservice-scndpart-details">
                 <div className="detailsdetails">
                   <div className="detailsssss">
                     <img src={tick} alt="" />
-                    <span>2 Year Warranty on Paint</span>
+                    <span>3 Year Warranty</span>
                   </div>
                   <div className="detailsssss">
                     <img src={tick} alt="" />
-                    <span>Grade a Primer Applied</span>
+                    <span>Every 3 Years</span>
                   </div>
                   <div className="detailsssss">
                     <img src={tick} alt="" />
-                    <span>Remove Minor Dent & Scartch</span>
+                    <span>Every PPF</span>
                   </div>
                   <div className="detailsssss">
                     <img src={tick} alt="" />
-                    <span>High Quality Dupont Paint</span>
+                    <span>Remove Minor Scartchs</span>
                   </div>
                   <div className="detailsssss">
                     <img src={tick} alt="" />
-                    <span>Panel Rubbing & Polishing</span>
+                    <span>External Car Wash</span>
                   </div>
                   <div className="detailsssss">
                     <img src={tick} alt="" />
-                    <span>Clear Coat Protective paint</span>
+                    <span>Ultra Shine Polishing</span>
                   </div>
                 </div>
                 <div className="details-cart">
@@ -165,40 +165,40 @@ const DetailService = () => {
             <div className="detailsservices-imgpart">
               <img width={180} height={180} src={silencer} alt="" />
               <div className="detailspart-rupees">
-                <span className="rs-25994">Rs.22,850</span>
-                <span className="rs-18294">₹ 19,999/-</span>
+                <span className="rs-25994">Rs.9,950</span>
+                <span className="rs-18294">₹ 7,999/-</span>
               </div>
             </div>
             <div className="detailsservice-scndpart">
               <div className="detailsservice-scndpart-head">
-                <h5 className="basicdetails">Whole Body Painting</h5>
-                <span className="timezz">8 days Taken</span>
+                <h5 className="basicdetails">Silencer Coating</h5>
+                <span className="timezz">Take 6 Hours</span>
               </div>
               <div className="detailsservice-scndpart-details">
                 <div className="detailsdetails">
                   <div className="detailsssss">
                     <img src={tick} alt="" />
-                    <span>2 Year Warranty on Paint</span>
+                    <span>3 Month Warranty</span>
                   </div>
                   <div className="detailsssss">
                     <img src={tick} alt="" />
-                    <span>Grade a Primer Applied</span>
+                    <span>Recommended Every 1 Year</span>
                   </div>
                   <div className="detailsssss">
                     <img src={tick} alt="" />
-                    <span>Remove Minor Dent & Scartch</span>
+                    <span>Silencer Anti-rusting Coating</span>
                   </div>
                   <div className="detailsssss">
                     <img src={tick} alt="" />
-                    <span>High Quality Dupont Paint</span>
+                    <span>2 Layer of Protection</span>
                   </div>
                   <div className="detailsssss">
                     <img src={tick} alt="" />
-                    <span>Panel Rubbing & Polishing</span>
+                    <span>Silencer Corrosion Protection</span>
                   </div>
                   <div className="detailsssss">
                     <img src={tick} alt="" />
-                    <span>Clear Coat Protective paint</span>
+                    <span>Underbody Teflon Coating</span>
                   </div>
                 </div>
                 <div className="details-cart">

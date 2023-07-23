@@ -5,7 +5,7 @@
     justify-content:space-around ;
     align-items: center;
     margin-left: 2rem;
-    background-color: darkcyan;
+    background-color: rgba(233, 233, 233, 0.774);
     border-radius: 9px;
     box-shadow: 0 0 5px rgb(168, 168, 168);
 }
@@ -60,7 +60,7 @@
 
 }
 .detailsss{
-    color: white;
+    color: rgb(0, 0, 0);
 }
 .basicbattery{
     height: 30px;
@@ -199,4 +199,68 @@
 }
 .link-button{
     text-decoration: none;
+}
+
+/* ---------------------------MediaQuery----------------------------- */
+
+@media(max-width:500px){
+    .batterymain{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        width: 100%;
+        height: 280vh;
+    }
+    .batteryservices-main{
+        width: 100%;
+        height: 250vh;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+    .batteryservices-firstpart{
+        display: flex;
+        flex-direction: column;
+        width: 95%;
+        height:80vh;
+        margin-left: 0;
+    }
+    .batteryservices-imgpart{
+        width: 95%;
+    }
+    .batteryservices-imgpart{
+        display: flex;
+        flex-direction: row;
+    }
+    .batteryservice-scndpart{
+        width: 95%;
+    }
+    .batterydetails{
+        width: 60%;
+        height: 30vh;
+    }
+    .battery-cart{
+        width: 40%;
+    }
+    .batteryservice-scndpart-details{
+        width: 100%;
+    }
+    .batterybutton{
+        font-size: 14px;
+    }
+    .detailsss{
+        font-size: 13px;
+    }
+    .basicbattery{
+        font-size: 18px;
+    }
+    .battery-search{
+        width: 95%;
+        margin-bottom: 1rem;
+    }
+    .battery-search-name{
+        font-size: 14px;
+        width: 95%;
+    }
 }

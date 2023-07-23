@@ -116,3 +116,34 @@
     margin-top: 0.5rem;
     color: orange;
 }
+@media(max-width:500px){
+.nav-login{
+    display: none;
+}
+.nav-cart{
+    display: none;
+}
+.nav-title-mec{
+    display: none;
+}
+.first-nav-search-box{
+    width: 500px;
+    margin-right: 1rem;
+}
+.home-images-size{
+    height: 400px;
+}
+.nav-periods{
+    width: 180px;
+    height: 100px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.nav-link-text{
+    font-size: 14px;
+}
+.nav-periods:hover{
+    background-color: darkcyan;
+}
+}

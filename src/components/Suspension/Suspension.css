@@ -1,4 +1,4 @@
-.tyreservices-firstpart{
+.shockservices-firstpart{
     display: flex;
     width: 90%;
     height: 55vh;
@@ -9,20 +9,20 @@
     border-radius: 9px;
     box-shadow: 0 0 5px rgb(168, 168, 168);
 }
-.tyremain{
+.shockmain{
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
     align-items: flex-start;
 }
-.tyreservices-main{
+.shockservices-main{
     width:70%;
-    height: 300vh;
+    height: 400vh;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
 }
-.tyreservices-imgpart{
+.shockservices-imgpart{
     height: 300px;
     width:200px;
     display: flex;
@@ -30,28 +30,28 @@
     justify-content: space-around;
     align-items: center;
 }
-.tyrepart-rupees{
+.shockpart-rupees{
     width: 200px;
     display: flex;
     justify-content: space-around;
     align-items: center;
 }
-.rs-25992{
+.rs-25996{
     font-size: 13px;
     font-weight: 700;
     color: rgb(155, 152, 152);
     text-decoration: line-through;
 }
-.rs-18292{
+.rs-18296{
     font-size: 17px;
     font-weight: 800;
     color: orange;
 }
-.tyreservice-scndpart{
+.shockservice-scndpart{
     width: 55%;
     height: 43vh;
 }
-.tyreservice-scndpart-head{
+.shockservice-scndpart-head{
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -59,10 +59,11 @@
     height: 50px;
 
 }
-.detailssss{
+.detailsssssss{
     color: rgb(0, 0, 0);
+    width: 310px;
 }
-.basictyre{
+.basicshock{
     height: 30px;
     margin-top: 0.5rem;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
@@ -70,7 +71,7 @@
     color: orange;
     font-size: 25px;
 }
-.timezs{
+.timezzzz{
     border: 1px solid rgb(10, 50, 68);
     width: 100px;
     height: 35px;
@@ -82,7 +83,7 @@
     font-size: 13px;
     color: white;
 }
-.tyreservice-scndpart-details{
+.shockservice-scndpart-details{
     width: 90%;
     display: flex;
     height: 30vh;
@@ -90,7 +91,7 @@
     justify-content: space-around;
     align-items: center;
 }
-.tyredetails{
+.shockdetails{
     height: 170px;
     width: 60%;
     display: flex;
@@ -98,7 +99,7 @@
     justify-content: space-evenly;
     align-items: flex-start;
 }
-.tyre-cart{
+.shock-cart{
     width: 150px;
     height: 40px;
     background-color: orangered;
@@ -109,7 +110,7 @@
     border-radius: 4px;
     font-weight: 800;
 }
-.tyrebutton{
+.shockbutton{
     width: 150px;
     height: 40px;
     background-color: orangered;
@@ -122,18 +123,18 @@
     outline: none;
     border: none;
 }
-.tyrebutton:hover{
+.shockbutton:hover{
     background-color: white;
     color: orangered;
 }
-.tyrehead{
+.shockhead{
     height: 40px;
     margin-left: 1rem;
     font-size: 30px;
     font-weight: 800;
     color: rgb(0, 0, 0);
 }
-.tyre-search{
+.shock-search{
     background-color: rgba(221, 221, 221, 0.747);
     width: 30%;
     height: 85vh;
@@ -145,7 +146,7 @@
     border-radius: 5px;
     box-shadow: 0 0 5px rgb(214, 214, 214);
 }
-.tyre-search-name{
+.shock-search-name{
     background-color: rgb(255, 255, 255);
     width: 85%;
     height: 45px;
@@ -155,14 +156,14 @@
     border-radius: 5px;
     box-shadow: 0 0 5px rgb(156, 156, 156);
 }
-.tyre-search-input{
+.shock-search-input{
     width: 240px;
     height: 40px;
     border: none;
     outline: none;
     background: none;
 }
-.tyre-button-type{
+.shock-button-type{
     width: 120px;
     height: 45px;
     border: 1px solid lightgrey;
@@ -170,20 +171,20 @@
     box-shadow: 0 0 5px rgb(184, 184, 184);
     background-image: linear-gradient(orange,orangered);
 }
-.tyre-search-logo{
+.shock-search-logo{
     display: flex;
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
     width: 200px;
 }
-.tyrecustomerdetails{
+.shockcustomerdetails{
     color: orange;
     font-size: 20px;
     font-weight: 800;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
-.tyre-submit{
+.shock-submit{
     width: 120px;
     height: 40px;
     outline: none;
@@ -193,7 +194,7 @@
     font-size: 17px;
     font-weight:700 ;
 }
-.tyre-submit:hover{
+.shock-submit:hover{
     color: rgb(255, 255, 255);
     background-image: linear-gradient(orangered, orange);
 }
@@ -204,62 +205,62 @@
 /* ---------------------------MediaQuery----------------------------- */
 
 @media(max-width:500px){
-    .tyremain{
+    .shockmain{
         display: flex;
         flex-direction: column;
         justify-content: space-around;
         align-items: center;
         width: 100%;
-        height: 430vh;
+        height: 650vh;
     }
-    .tyreservices-main{
+    .shockservices-main{
         width: 100%;
-        height: 450vh;
+        height: 650vh;
         display: flex;
         justify-content: space-around;
         align-items: center;
     }
-    .tyreservices-firstpart{
+    .shockservices-firstpart{
         display: flex;
         flex-direction: column;
         width: 95%;
         height:80vh;
         margin-left: 0;
     }
-    .tyreservices-imgpart{
+    .shockservices-imgpart{
         width: 95%;
     }
-    .tyreservices-imgpart{
+    .shockservices-imgpart{
         display: flex;
         flex-direction: row;
     }
-    .tyreservice-scndpart{
+    .shockservice-scndpart{
         width: 95%;
     }
-    .tyredetails{
+    .shockdetails{
         width: 60%;
         height: 30vh;
     }
-    .tyre-cart{
+    .shock-cart{
         width: 40%;
     }
-    .tyreservice-scndpart-details{
+    .shockservice-scndpart-details{
         width: 100%;
     }
-    .tyrebutton{
+    .shockbutton{
         font-size: 14px;
     }
-    .detailssss{
+    .detailsssssss{
         font-size: 13px;
     }
-    .basictyre{
-        font-size: 18px;
+    .basicshock{
+        font-size: 15px;
     }
-    .tyre-search{
+    .shock-search{
         width: 95%;
         margin-bottom: 1rem;
     }
-    .tyre-search-name{
+    .shock-search-name{
         font-size: 14px;
         width: 95%;
     }

@@ -15,6 +15,8 @@ const HomeOne = () => {
         <img className="homeone-head-img" src={right} alt="" />
       </div>
       <div className="homeone-content">
+
+        <div className="homeone-content-1">
         <div className="homeone-items">
           <Link to="perodicServices">
             <img
@@ -29,6 +31,7 @@ const HomeOne = () => {
             <span className="homeone-text">Periodic Services</span>
           </Link>
         </div>
+
         <div className="homeone-items">
           <Link to="AcRepaires">
             <img
@@ -43,6 +46,7 @@ const HomeOne = () => {
             <span className="homeone-text">AC Service & Repair</span>
           </Link>
         </div>
+
         <div className="homeone-items">
           <Link to="Batteries">
             <img
@@ -57,6 +61,9 @@ const HomeOne = () => {
             <span className="homeone-text">Battery Services</span>
           </Link>
         </div>
+        </div>
+
+        <div className="homeone-content-2">
         <div className="homeone-items">
           <Link to="TyreWheels">
             <img
@@ -71,6 +78,7 @@ const HomeOne = () => {
             <span className="homeone-text">Wheel Alingments</span>
           </Link>
         </div>
+
         <div className="homeone-items">
           <Link to="PerodicServices">
             <img
@@ -85,6 +93,8 @@ const HomeOne = () => {
             <span className="homeone-text">Raditor Service</span>
           </Link>
         </div>
+        </div>
+
       </div>
     </div>
   );

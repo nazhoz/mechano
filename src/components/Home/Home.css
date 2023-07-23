@@ -17,6 +17,18 @@
     align-items: center;
     height: 390px;
 }
+.homeone-content-1{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 60%;
+}
+.homeone-content-2{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 40%;
+}
 .homeone-main{
     height: 90vh;
     display: flex;
@@ -181,4 +193,93 @@
     justify-content: center;
     align-items: center;
     color: white;
+}
+
+/* ----------------------------------------------mediaQuery----------------------------------------------------- */
+
+
+@media(max-width:500px){
+    .homeone-heading{
+        margin-left: 0;
+    }
+    .homeone-head{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .homeone-content{
+        display: flex;
+        flex-direction: column;
+        height: 70vh;
+    }
+    .homeone-content-1{
+        width: 100%;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+    .homeone-content-2{
+        width: 100%;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+    .homeone-items{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        height: 170px;
+        width: 120px;
+    }
+    .homeone-text{
+        font-size: 12px;
+    }
+    .hometwo-main{
+        height: 70vh;
+    }
+    .hometwo-head-main{
+        height: 100px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .hometwo-curated{
+        margin-left: 0;
+    }
+    .hometwo-arrow{
+        display: none;
+    }
+    .homecaroimg{
+        width: 150px;
+        height: 150px;
+    }
+    .hometwo-carousel{
+        width: 180px;
+    }
+    .home-main-footer{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        height: 40vh;
+    }
+    .home-footer-one{
+        width: 100%;
+        height: 200px;
+    }
+    .home-footer-one-imgs{
+        width: 50%;
+    }
+    .home-footer-social{
+        width: 75%;
+    }
+    .home-footer-two{
+        width: 100%;
+    }
+    .footer-playstore{
+        width: 40%;
+    }
+    .footer-appstore{
+        width: 42%;
+    }
 }

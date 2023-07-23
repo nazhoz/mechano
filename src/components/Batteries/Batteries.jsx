@@ -9,7 +9,7 @@ import HomeFooter from "../Home/HomeFooter";
 
 const Batteries = () => {
   return (
-    <div>
+    <div className="battery-all">
       <div className="batterymain">
         <div className="batteryservices-main">
           <h4 className="batteryhead">Batteries</h4>

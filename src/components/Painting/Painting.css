@@ -5,7 +5,7 @@
     justify-content:space-around ;
     align-items: center;
     margin-left: 2rem;
-    background-color: darkcyan;
+    background-color: rgba(233, 233, 233, 0.774);
     border-radius: 9px;
     box-shadow: 0 0 5px rgb(168, 168, 168);
 }
@@ -60,7 +60,7 @@
 
 }
 .detailssssz{
-    color: white;
+    color: rgb(0, 0, 0);
     width: 310px;
 }
 .basicpaint{
@@ -200,4 +200,68 @@
 }
 .link-button{
     text-decoration: none;
+}
+
+/* ---------------------------MediaQuery----------------------------- */
+
+@media(max-width:500px){
+    .paintmain{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        width: 100%;
+        height: 430vh;
+    }
+    .paintservices-main{
+        width: 100%;
+        height: 450vh;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+    .paintservices-firstpart{
+        display: flex;
+        flex-direction: column;
+        width: 95%;
+        height:80vh;
+        margin-left: 0;
+    }
+    .paintservices-imgpart{
+        width: 95%;
+    }
+    .paintservices-imgpart{
+        display: flex;
+        flex-direction: row;
+    }
+    .paintservice-scndpart{
+        width: 98%;
+    }
+    .paintdetails{
+        width: 60%;
+        height: 30vh;
+    }
+    .paint-cart{
+        width: 40%;
+    }
+    .paintservice-scndpart-details{
+        width: 100%;
+    }
+    .paintbutton{
+        font-size: 14px;
+    }
+    .detailssssz{
+        font-size: 13px;
+    }
+    .basicpaint{
+        font-size: 18px;
+    }
+    .paint-search{
+        width: 95%;
+        margin-bottom: 1rem;
+    }
+    .paint-search-name{
+        font-size: 14px;
+        width: 95%;
+    }
 }

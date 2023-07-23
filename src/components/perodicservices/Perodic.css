@@ -192,3 +192,67 @@
     font-size: 17px;
     font-weight:700 ;
 }
+
+
+/* -----------------------------------MediaQuery-------------------------------------- */
+
+@media(max-width:500px){
+    .peroidmain{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        width: 100%;
+        height: 700vh;
+    }
+    .periodicservices-main{
+        width: 100%;
+        height: 650vh;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+    .periodicservices-firstpart{
+        display: flex;
+        flex-direction: column;
+        width: 95%;
+        height:80vh;
+        margin-left: 0;
+    }
+    .periodicservices-imgpart{
+        width: 95%;
+    }
+    .periodicservices-imgpart{
+        display: flex;
+        flex-direction: row;
+    }
+    .periodicservice-scndpart{
+        width: 95%;
+    }
+    .periodicdetails{
+        width: 60%;
+        height: 30vh;
+    }
+    .periodic-cart{
+        width: 40%;
+    }
+    .periodicservice-scndpart-details{
+        width: 100%;
+    }
+    .acbutton{
+        font-size: 14px;
+    }
+    .details{
+        font-size: 13px;
+    }
+    .basicser{
+        font-size: 18px;
+    }
+    .period-search{
+        width: 98%;
+    }
+    .period-search-name{
+        font-size: 14px;
+        width: 95%;
+    }
+}
