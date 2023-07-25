@@ -96,6 +96,7 @@ const HomeOne = () => {
         </div>
 
       </div>
+      
     </div>
   );
 };

@@ -56,6 +56,12 @@
 }
 .nav-login-btn{
     height: 30px;
+    text-decoration: none;
+}
+.btn-modal{
+    border: none;
+    outline: none;
+    background: none;
 }
 .nav-carousel{
     background-color: rgba(241, 241, 241, 0.61);

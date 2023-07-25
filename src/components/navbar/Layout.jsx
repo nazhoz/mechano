@@ -1,5 +1,5 @@
-import React from "react";
-import { Link, Outlet } from "react-router-dom";
+import React, { useState } from "react";
+import { Link, Outlet} from "react-router-dom";
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
 import carservice from "./images/20230721085214_[fpdl.in]_flat-repair-shop-business-brochure-template_23-2149538674_large.jpg";
@@ -16,6 +16,7 @@ import carmaintenance from "./images/maintenance.png";
 import carlight from "./images/headlamp.png";
 import carsuspense from "./images/suspension.png";
 import carclutch from "./images/clutch.png";
+import Demo from "../demo/Demo";
 
 const Layout = () => {
   const responsive = {
@@ -38,6 +39,7 @@ const Layout = () => {
     },
   };
 
+const [button, setButton ]= useState(false)
   return (
     <div>
       <div className="first-nav">
@@ -56,21 +58,23 @@ const Layout = () => {
           />
         </div>
         <div className="nav-login">
-          <h4 className="nav-login-btn">Login</h4>
-          <Link>
-            <img src={login} alt="" />
-          </Link>
+          <button onClick={()=>setButton(true)} className="btn-modal">
+            <img  src={login} alt="" />
+          </button>
         </div>
         <div className="nav-cart">
-          <h4 className="cart-text">Cart</h4>
+          {/* <h4 className="cart-text">Cart</h4> */}
           <Link to="Cart">
             <img src={cart} alt="" />
           </Link>
         </div>
       </div>
-
+<div>
       <div className="home-images">
         <img className="home-images-size" src={carservice} alt="" />
+             
+      </div>
+      <Demo trigger={button} setTrigger={setButton}/>
       </div>
       <nav className="navbar-all">
         <ul className="nav-all">
@@ -140,6 +144,7 @@ const Layout = () => {
         </ul>
         <Outlet />
       </nav>
+     
     </div>
   );
 };

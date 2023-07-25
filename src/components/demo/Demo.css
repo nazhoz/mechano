@@ -1,0 +1,73 @@
+.popup{
+position:absolute ;
+z-index: 5;
+top: 85px;
+right: 80px;
+width: 365px;
+height: 560px;
+background-color: white;
+}
+.home-images-size{
+    position: relative;
+}
+.close-btn{
+    outline: none;
+    border: none;
+    background-color: none;
+    margin-left: 10rem;
+}
+.log-in{
+    font-size: 35px;
+    font-weight: 700;
+    margin-left: 7.5rem;
+    background: linear-gradient(90deg,rgb(15, 148, 119)5%, rgb(0, 0, 0) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+#register, #login {
+    width: 400px;
+    /* border: 1px solid #d6d7da; */
+    padding: 0px 15px 15px 15px;
+    border-radius: 5px;
+    font-family: arial;
+    line-height: 16px;
+    color: #333333;
+    font-size: 14px;
+    background: #ffffff;
+  }
+  
+  form label, form input {
+    display: block;
+    margin-bottom: 10px;
+    width: 90%
+  }
+  form input {
+    padding: 10px;
+    border: solid 1px #BDC7D8;
+  
+  }
+  
+  .button {
+    background-color: darkcyan;
+    border-color: #3ac162;
+    font-weight: bold;
+    padding: 12px 15px;
+    width: 100px;
+    margin-left: 7rem;
+    border-radius: 5px;
+    color: #ffffff;
+    outline: none;
+  }
+  .button:hover{
+    background-image: linear-gradient(darkviolet, rgb(225, 103, 255));
+  }
+  
+  .errorMsg {
+    color: #cc0000;
+    margin-bottom: 12px;
+  }
+  
+  .sucessMsg {
+    color: #6B8E23;
+    margin-bottom:10px;
+}
