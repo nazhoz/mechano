@@ -1,0 +1,109 @@
+.CartItem{
+    /* background-color: aqua; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 50vh;
+}
+.cartservices-firstpart{
+    background-color: rgb(214, 214, 214);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 48%;
+    height: 38vh;
+    border-radius: 10px;
+    box-shadow: 0 0 10px grey;
+}
+.cartservices-imgpart{
+    /* background-color: bisque; */
+    height: 200px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+.cartservice-scndpart-head{
+    /* background-color: yellow; */
+    display: flex;
+    /* margin-right: 20rem; */
+}
+.cartservice-scndpart{
+    /* background-color: yellowgreen; */
+    height: 35vh;
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-evenly;
+}
+.cart-head{
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.caart-head{
+    height: 50px;
+    font-weight: 800;
+}
+.caart-input{
+    width: 15px;
+    height: 50px;
+    outline: none;
+    background: none;
+    border: none;
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+
+}
+
+.caart-rs-input{
+    /* background-color: violet; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 100px;
+}
+.caart-btn{
+    outline: none;
+    background: none;
+    border: none;
+    width: 50px;
+    height: 50px;
+    font-size: 30px;
+    font-weight: 800;
+    color: rgb(0, 153, 255);
+}
+.countHandler{
+    /* background-color: aqua; */
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.checkout{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.checkoutbtn{
+    width: 350px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.checkbtn{
+    width: 150px;
+    height: 50px;
+    background-color: black;
+    color: white;
+    outline: none;
+    border-radius: 5px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 16.5px;
+    font-weight: 700;
+}

@@ -12,10 +12,12 @@ import WindShieldLight from './components/WindSheildLights/WindShieldLight';
 import Suspensions from './components/Suspension/Suspensions';
 import ClutchBodys from './components/Clutchbodys/ClutchBodys';
 import Cart from './components/Cart/Cart';
+import { ShopContextProvider } from './Context/Shop-context';
 
 function App() {
   return (
    <BrowserRouter>
+   <ShopContextProvider>
    <Routes>
     <Route path='/' element={<Layout/>}>
     <Route index element={<Home/>}/>
@@ -32,6 +34,7 @@ function App() {
 
     </Route>
    </Routes>
+   </ShopContextProvider>
    </BrowserRouter>
   );
 }
