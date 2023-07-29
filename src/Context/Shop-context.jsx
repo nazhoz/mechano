@@ -20,7 +20,7 @@ export const ShopContextProvider = (props) => {
     const getTotalCartAmount =()=>{
         let totalAmount = 0;
         for (const item in cartItems){
-            if (cartItems[item]>0){
+            if (cartItems[item] > 0){
                 let itemInfo = periodicservice.find((product)=>product.id === Number(item));
                 totalAmount += cartItems[item] * itemInfo.amount
             }

@@ -11,8 +11,8 @@
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    width: 48%;
-    height: 38vh;
+    width: 55%;
+    height: 42vh;
     border-radius: 10px;
     box-shadow: 0 0 10px grey;
 }
@@ -23,6 +23,15 @@
     justify-content: space-evenly;
     align-items: center;
 
+}
+.basiccart{
+    /* background-color: aqua; */
+    width: 200px;
+    height: 30px;
+    font-size: 20px;
+}
+.cartdetails{
+    font-size: 14px;
 }
 .cartservice-scndpart-head{
     /* background-color: yellow; */

@@ -20,7 +20,7 @@ const Cart = () => {
         })}
       </div> 
       <div className='checkout'>
-        <p>Sub Total : ₹{totalAmount}</p>
+        <p>Sub Total : ₹ {totalAmount}</p>
         <div className='checkoutbtn'>
         <button className='checkbtn'>continue Service</button>
         <button className='checkbtn'>Checkout</button>

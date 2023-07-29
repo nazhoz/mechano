@@ -6,7 +6,6 @@ export const CartItem = (props) => {
     const {
         id,
         image,
-        price,
         amount,
         title,
         tickmark,
@@ -25,7 +24,7 @@ export const CartItem = (props) => {
           <img width={180} height={180} src={image} alt="" />
           <div className='caart-rs-input'>
           <div className="imgpart-rupees">
-            <span className="rs-25999">{price}</span>
+            {/* <span className="rs-25999">{price}</span> */}
             <span className="rs-18299">{amount}</span>
           </div>
           <div className='countHandler'>
