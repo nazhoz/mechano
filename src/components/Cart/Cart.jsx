@@ -234,7 +234,7 @@ const Cart = () => {
     const fullMessage = `${message}${servicesDetails}${message2}`;
 
     const encodedMessage = encodeURIComponent(fullMessage);
-    const whatsappURL = `https://api.whatsapp.com/send?phone=919567836662&text=${encodedMessage}`;
+    const whatsappURL = `https://api.whatsapp.com/send?phone=918078291170&text=${encodedMessage}`;
 
     window.open(whatsappURL);
   };
