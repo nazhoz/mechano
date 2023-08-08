@@ -27,6 +27,10 @@ import detail1 from './Assets/detail/1image.jpg'
 import detail2 from './Assets/detail/2image.jpg'
 import detail3 from './Assets/detail/3image.jpg'
 import detail4 from './Assets/detail/4 image.jpg'
+import wind1 from './Assets/Wind/1.jpg'
+import wind2 from './Assets/Wind/2.jpg'
+import wind3 from './Assets/Wind/3.jpg'
+import wind4 from './Assets/Wind/4.jpg'
 
 
 export const periodicservice = [
@@ -483,4 +487,69 @@ export const periodicservice = [
     detailfive: "Silencer Corrosion Protection",
     detailsix: "Underbody Teflon Coating",
   },
+
+
+  {
+    id: 29,
+    cat:"wind",
+    image: wind1,
+    price: "Rs.61,789",
+    amount: 55999,
+    title: "Frond Windsheild Services",
+    time: "Take 6 Hours",
+    tickmark: tick,
+    detailone: "1 Month Warranty",
+    detailtwo: "WindSheild (ISI Approved)",
+    detailthree: "Sensor Charges Additional",
+    detailfour: "Free Pickup & Drop",
+    detailfive: "Opening & Fitting WindSheild",
+    detailsix: "Consumables",
+  },
+  {
+    id: 30,
+    cat:"wind",
+    image: wind2,
+    price: "Rs.54,850",
+    amount: 48999,
+    title: "Rear WindSheild Services",
+    time: "Take 6 Hours",
+    tickmark: tick,
+    detailone: "1 Month Warranty",
+    detailtwo: "WindSheild (ISI Approved)",
+    detailthree: "Free Pickup & Drop",
+    detailfour: "Defogger Charges Additional",
+    detailfive: "Opening & Fitting WindSheild",
+    detailsix: "Consumable",
+  },{
+    id: 31,
+    cat:"wind",
+    image: wind3,
+    price: "Rs.97,850",
+    amount: 89999,
+    title: "Front HeadLights Services",
+    time: "Take 4 Hours",
+    tickmark: tick,
+    detailone: "1 Month Warranty",
+    detailtwo: "Recommonded for crack/damages",
+    detailthree: "Headlight OES",
+    detailfour: "Free Pickup & Drop",
+    detailfive: "Opening & Fitting of Headlights",
+    detailsix: "LED s Additional",
+  },{
+    id: 32,
+    cat:"wind",
+    image: wind4,
+    price: "Rs.29,950",
+    amount: 7999,
+    title: "Silencer Coating",
+    time: "Take 6 Hours",
+    tickmark: tick,
+    detailone: "3 Month Warranty",
+    detailtwo: "Recommended Every 1 Year",
+    detailthree: "Silencer Anti-rusting Coating",
+    detailfour: "2 Layer of Protection",
+    detailfive: "Silencer Corrosion Protection",
+    detailsix: "Underbody Teflon Coating",
+  },
+
 ];

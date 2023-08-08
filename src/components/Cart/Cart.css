@@ -200,3 +200,33 @@
     font-size: 8px;
 }
 
+
+/* ------------------------------media-Query----------------------------------------- */
+@media(max-width:500px){
+
+    .cart{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .cart-item{
+        width: 100%;
+    }
+    .countHandler{
+        width: 100px;
+    }
+    .cart-imgs{
+        width: 100px;
+        height: 100px;
+    }
+    .cartservices-imgpart{
+        display: flex;
+        flex-direction: column;
+    }
+    .checkout{
+        width: 100%;
+    }
+    
+
+}
+

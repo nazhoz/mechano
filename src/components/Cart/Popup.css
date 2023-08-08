@@ -322,6 +322,7 @@ th{
 }
 .billname{
   font-family: 'Edu SA Beginner', cursive;
+  color: black;
 }
 .billcontent{
   display: flex;
@@ -331,6 +332,7 @@ th{
 .billnamecontent{
   width: 40%;
 }
+
 
 
 

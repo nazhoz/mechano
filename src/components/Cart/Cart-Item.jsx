@@ -21,7 +21,7 @@ export const CartItem = (props) => {
     <div className='CartItem'>
         <div className="cartservices-firstpart">
         <div className="cartservices-imgpart">
-          <img width={180} height={180} src={image} alt="" />
+          <img className='cart-imgs' width={180} height={180} src={image} alt="" />
           <div className='caart-rs-input'>
           <div className="imgpart-rupees">
             {/* <span className="rs-25999">{price}</span> */}
@@ -32,6 +32,7 @@ export const CartItem = (props) => {
             <input className='caart-input' value={cartItems[id]} onChange={(e)=> updateCartItemCount(Number(e.target.value),id)}/>
             <button className='caart-btn' onClick={()=> addToCart(id)}>+</button>
           </div>
+
           </div>
         </div>
         <div className="cartservice-scndpart">
